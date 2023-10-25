@@ -1,0 +1,13 @@
+
+”
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ËÒâÑ8‡Øí“›1
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8‰Øí“›1
+Z	java:S106@"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8‹Øí“›1
+N
+java:S1128"1Remove this unused import 'java.math.BigDecimal'.(êêŠ8ûÒªŞ›1
+P
+java:S1128"3Remove this unused import 'java.math.RoundingMode'.(¿ì†‹8ûÒªŞ›1
+M
+java:S1144"0Remove this unused private "calculAsync" method.(ËÒâÑ8Õâ£Ş›1
+W
+java:S11445":Remove this unused private "handleFutureException" method.(„ÅÑ8‡Å£Ş›1

@@ -1,0 +1,95 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.afb.dpdl.ged.ws.rest.api</groupId>
+    <artifactId>services-ged</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+        
+		<dependency>
+		    <groupId>com.ibm.informix</groupId>
+		    <artifactId>jdbc</artifactId>
+		    <version>4.50.1</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    <version>42.2.5</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>5.1.6</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.oracle.jdbc</groupId>
+			<artifactId>ojdbc14</artifactId>
+			<version>14</version>
+		</dependency>
+			
+		<dependency>
+		    <groupId>org.json</groupId>
+		    <artifactId>json</artifactId>
+		    <version>20180813</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/javax.enterprise/cdi-api -->
+		<dependency>
+		    <groupId>javax.enterprise</groupId>
+		    <artifactId>cdi-api</artifactId>
+		    <version>1.1</version>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.jasypt/jasypt -->
+		<dependency>
+		    <groupId>org.jasypt</groupId>
+		    <artifactId>jasypt</artifactId>
+		    <version>1.9.2</version>
+		</dependency>
+        
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-dbcp2 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-dbcp2</artifactId>
+            <version>2.6.0</version>
+        </dependency>
+
+		
+		<!-- JSF dependencies -->
+<!-- 	    <dependency> -->
+<!-- 	        <groupId>com.sun.faces</groupId> -->
+<!-- 	        <artifactId>jsf-api</artifactId> -->
+<!-- 	        <version>2.2.2</version> -->
+<!-- 	    </dependency> -->
+	    <dependency>
+	        <groupId>com.sun.faces</groupId>
+	        <artifactId>jsf-impl</artifactId>
+	        <version>2.2.18</version>
+	    </dependency>
+<!-- 	    <dependency> -->
+<!-- 	        <groupId>javax.servlet</groupId> -->
+<!-- 	        <artifactId>javax.servlet-api</artifactId> -->
+<!-- 	        <version>3.0.1</version> -->
+<!-- 	    </dependency> -->
+		
+    </dependencies>
+    <build>
+        <finalName>services-ged</finalName>
+    </build>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <failOnMissingWebXml>false</failOnMissingWebXml>
+    </properties>
+</project>

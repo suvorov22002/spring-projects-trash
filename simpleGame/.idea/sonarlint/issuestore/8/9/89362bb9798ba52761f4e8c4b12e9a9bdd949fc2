@@ -1,0 +1,19 @@
+
+P
+java:S1854/"5Remove this useless assignment to local variable "y".(ÂÄ® ûÿÿÿÿ
+P
+java:S1854#"5Remove this useless assignment to local variable "b".(Ê÷»Óşÿÿÿÿ
+:
+java:S1659."Declare "y" on a separate line.(Áóãıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿû™ì
+N	java:S106"9Replace this use of System.out or System.err by a logger.(–´Î
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ôçûÌøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿû™ì
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Ú‚u
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ä»†¼
+A
+java:S1481#"&Remove this unused "b" local variable.(Ê÷»Óşÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(ççíıÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(’ĞÔŒùÿÿÿÿ
+M	java:S106,"9Replace this use of System.out or System.err by a logger.(Ñä•D
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(ãŒÂÔøÿÿÿÿ

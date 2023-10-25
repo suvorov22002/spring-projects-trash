@@ -1,0 +1,13 @@
+
+J
+java:S1604"(Make this anonymous inner class a lambda(Í‚ÅÌûÿÿÿÿ8ç˜ˆ¹˜1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(É¶á©8ç˜ˆ¹˜1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ğ—«8…™ˆ¹˜1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÈµÙÉÿÿÿÿÿ8‹™ˆ¹˜1
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8™ˆ¹˜1
+Q
+java:S1144"/Remove this unused private "testMethod" method.(„à§áşÿÿÿÿ8™ˆ¹˜1
+M
+java:S1144"0Remove this unused private "testMethod2" method.(ã±‚ø8™ˆ¹˜1
+I
+java:S1144",Remove this unused private "isPrime" method.(£áØ´8™ˆ¹˜1

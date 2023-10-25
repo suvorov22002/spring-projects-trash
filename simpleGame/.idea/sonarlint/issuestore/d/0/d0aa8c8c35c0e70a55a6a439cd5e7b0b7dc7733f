@@ -1,0 +1,8 @@
+
+S
+java:S1854"8Remove this useless assignment to local variable "cols".(ĞœØøÿÿÿÿ
+D
+java:S1481")Remove this unused "cols" local variable.(ĞœØøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(°­É³ùÿÿÿÿ
+A
+java:S1144 "+Remove this unused private "count2" method.(·µ¤‹

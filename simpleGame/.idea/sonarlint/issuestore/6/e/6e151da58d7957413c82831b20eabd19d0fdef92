@@ -1,0 +1,23 @@
+
+W
+java:S4973#"<Strings and Boxed types should be compared using "equals()".(ôÚÑçüÿÿÿÿ
+q
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(éÔ¥ø
+O
+java:S1854.":Remove this useless assignment to local variable "result".(µõ´b
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ì®¾üÿÿÿÿ
+q
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(£şüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ú§¼Ù
+S	java:S106"9Replace this use of System.out or System.err by a logger.( ¤ªòÿÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ôÚÑçüÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(²Ú
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(Œ­ÿ…
+;
+java:S1905."&Remove this unnecessary cast to "int".(µõ´b
+@
+java:S1481."+Remove this unused "result" local variable.(µõ´b
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(™õ»®
+K
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ

@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://xmlns.jcp.org/jsf/core">
+ 
+<h:head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Conpatible" />
+    
+    <h:outputStylesheet library="css" name="bootstrap.min.css" />
+    <title>JSF CRUD Example</title>
+    <style type="text/css">
+        .btnWidth {
+            width: 80px;
+        }     
+    </style>
+</h:head>
+<h:body>
+
+	<h:form id="createStudentForm" class="form-horizontal">
+        
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">WS GED V3 : Paramétrage des chaînes de connexion</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                        <input type="text" class="form-control" placeholder="Search..." />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <h4>Paramétrage des chaînes de connexion</h4>
+            </div>
+        </div>
+        <hr/>
+        <div class="form-group">
+            <h:outputLabel for="dbname" class="control-label col-sm-4">DB Name : </h:outputLabel>
+            <div class="col-sm-4">
+            	<h:inputText id="dbname-id" value="#{dBConfigBean.name}" class="form-control" validatorMessage="Le nom de la base de données est obligatoire">
+                    <f:validateRequired/>
+                </h:inputText>
+            </div>
+        </div>
+        <div class="form-group">
+            <h:outputLabel for="driver" class="control-label col-sm-4">Driver : </h:outputLabel>
+            <div class="col-sm-4">
+                <h:inputText id="driver-id" value="#{dBConfigBean.driver}" class="form-control" validatorMessage="Le pilote est obligatoire">
+                    <f:validateRequired />
+                </h:inputText>
+            </div>
+        </div>
+        <div class="form-group">
+            <h:outputLabel for="connection" class="control-label col-sm-4">Connection String : </h:outputLabel>
+            <div class="col-sm-4">
+                <h:inputText id="connectionl-id" value="#{dBConfigBean.conString}" class="form-control" validatorMessage="La chaîne de connexion est obligatoire">
+                    <f:validateRequired/>
+                </h:inputText>
+            </div>
+        </div>
+        <div class="form-group">
+            <h:outputLabel for="username" class="control-label col-sm-4">Username : </h:outputLabel>
+            <div class="col-sm-4">
+            	<h:inputText id="username-id" value="#{dBConfigBean.username}" class="form-control" validatorMessage="Le nom d'utilisateur est obligatoire">
+                    <f:validateRequired/>
+                </h:inputText>
+            </div>
+        </div>
+        <div class="form-group">
+            <h:outputLabel for="password" class="control-label col-sm-4">Password : </h:outputLabel>
+            <div class="col-sm-4">
+                <h:inputSecret id="password-id" value="#{dBConfigBean.password}" class="form-control" validatorMessage="Password is required">
+                    <f:validateRequired/>
+                </h:inputSecret>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <div class="col-sm-2">
+                    <h:commandButton value="Save" action="#{dBConfigBean.saveDBConfigBean(dBConfigBean)}" class="btn btn-success btnWidth" />
+                </div>
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-2">
+                    <h:link outcome="studentsList" value="View Students Record List" class="btn btn-primary" />
+                </div>
+            </div>
+        </div>
+    </h:form>
+
+
+</h:body>
+</html>
